@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       WmeLuna
 // @match        https://*.dadeschools.net/*
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/Dade404Remover.user.js
 // @icon         https://www.google.com/s2/favicons?domain=dadeschools.net
 // @grant        none
 // ==/UserScript==
