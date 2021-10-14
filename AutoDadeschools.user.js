@@ -5,6 +5,7 @@
 // @description  Automatically sign in to dadeschools
 // @author       WmeLuna
 // @match        http*://auth.dadeschools.net/_auth/dsLogon.aspx?ru=*
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/AutoDadeschools.user.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // ==/UserScript==
