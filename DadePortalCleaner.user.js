@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       WmeLuna
 // @match        https://mdcpsportal.dadeschools.net/*/default.aspx
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/DadePortalCleaner.user.js
 // @icon         https://mdcpsportal.dadeschools.net/_layouts/images/siteIcon.png
 // @grant        none
 // ==/UserScript==
