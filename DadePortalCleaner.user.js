@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DadePortalCleaner
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       WmeLuna
 // @match        https://mdcpsportal.dadeschools.net/*/default.aspx
@@ -24,6 +24,4 @@ function kill(x) {
     kill("#zz9_TopNavigationMenuV4 > div > ul > li > a")
     document.querySelector(".s4-ca").style.marginLeft = '77.5px'
     document.querySelector(".s4-ca").style.marginRight = '77.5px'
-
-    document.querySelector("#zz8_Menu > span").innerHTML = 'Martinez, Luna T - 0369291'
 })();
