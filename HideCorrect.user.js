@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Correct Questions
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Wmeluna
 // @match        https://www.webassign.net/web/Student/Assignment-Responses/*
@@ -22,7 +22,7 @@
     var scriptElement = document.createElement( "script" );
     scriptElement.type = "text/javascript";
     scriptElement.innerText = `
-var questions=$(document.querySelector(".waQBox").getAttribute("id")).retrieve("question").assignment.questions;for(const e of questions)JSON.parse(e.element.children[0].dataset.questionDisplay).score==JSON.parse(e.element.children[0].dataset.questionDisplay).total&&(e.element.style.display="none");
+var questions=$(document.querySelector(".waQBox").getAttribute("id")).retrieve("question").assignment.questions;for(const e of questions)JSON.parse(e.element.children[0].dataset.questionDisplay).score==JSON.parse(e.element.children[0].dataset.questionDisplay).total&&(e.element.addClass("hidden"));
     `;
     document.body.appendChild( scriptElement );
 })();
