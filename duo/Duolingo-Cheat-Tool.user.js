@@ -14,7 +14,7 @@ let mainInterval;
 
 const dataTestComponentClassName = 'e4VJZ';
 
-const TIME_OUT = 1000;
+const TIME_OUT = 500;
 
 // Challenge types
 const CHARACTER_SELECT_TYPE = 'characterSelect';
