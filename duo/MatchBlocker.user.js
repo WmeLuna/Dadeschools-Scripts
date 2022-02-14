@@ -11,7 +11,7 @@
 // ==/UserScript==
 (function(send, open) {
     'use strict';
-    let blockedTypes = ["match", "tapComplete", "dialogue", "assist", "definition", "gapFill", "readComprehension", "listenTap"]
+    let blockedTypes = ["tapCloze","match","tapCompleteTable", "tapComplete", "dialogue", "assist", "definition", "gapFill", "readComprehension", "listenTap"]
     // Override send() method to change request body
     XMLHttpRequest.prototype.send = function(body) {
         let modifiedBody = body;
