@@ -17,10 +17,10 @@
         if(document.querySelector('[data-test="player-next"]').classList[0] != 'LhRk3') {
             document.querySelector('[data-test="player-next"]').click()
         }
-        setTimeout(next, 250);
+        setTimeout(next, 50);
         }
         catch {
-        setTimeout(next, 250);
+        setTimeout(next, 50);
         }
     }
     next()
