@@ -13,6 +13,6 @@
     'use strict';
     var scr = document.createElement('script');
     scr.type="text/javascript";
-    scr.innerText=`function b(){0==a.href.includes("localhost")?location.href="https://womginx.wmeluna.repl.co/main/"+a.href:setTimeout(b,250)}b();`
+    scr.innerText=`function b(){0==a.href.includes("localhost")?location.href="https://unlock.wmeluna.com/main/"+a.href:setTimeout(b,250)}b();`
     document.getElementsByTagName('head')[0].appendChild(scr)
 })();
