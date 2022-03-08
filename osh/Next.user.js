@@ -15,10 +15,10 @@
     function next() {
         try {
         document.querySelector("#footer_next_page").click()
-        setTimeout(next, 50);
+        setTimeout(next, 250);
         }
         catch {
-        setTimeout(next, 50);
+        setTimeout(next, 250);
         }
     }
     next()
