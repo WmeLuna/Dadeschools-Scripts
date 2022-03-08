@@ -12,6 +12,14 @@
 
 (function() {
     'use strict';
-    document.querySelector("#footer_next_page").click()
-    // Your code here...
+    function next() {
+        try {
+        document.querySelector("#footer_next_page").click()
+        setTimeout(next, 50);
+        }
+        catch {
+        setTimeout(next, 50);
+        }
+    }
+    next()
 })();
