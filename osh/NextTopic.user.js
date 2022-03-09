@@ -11,6 +11,12 @@
 
 (function() {
     'use strict';
-    document.querySelector('circle[fill="#646C77"]').parentElement.parentElement.click()
+    try {
+        document.querySelector('circle[fill="#646C77"]').parentElement.parentElement.click()
+    }
+    catch {
+        //goes to a random one so time can get completed
+        document.querySelectorAll('circle[fill="#1C76DA"]')[Math.floor(Math.random() * Math.floor(document.querySelectorAll('circle[fill="#1C76DA"]').length))].parentElement.parentElement.click()
+    }
     // Your code here...
 })();
