@@ -18,10 +18,10 @@
                 document.querySelector("#footer_next_page").click()
             }
             document.querySelector('#contentIframe').contentWindow.document.querySelector('#vidContainer').onended= function() { document.querySelector("#footer_next_page").click(); }
-            setTimeout(next, 250);
+            setTimeout(next, 1000);
         }
         catch {
-            setTimeout(next, 250);
+            setTimeout(next, 1000);
         }
     }
     setTimeout(next, 1000);
