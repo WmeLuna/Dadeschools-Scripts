@@ -24,7 +24,7 @@
             setTimeout(next, 250);
         }
     }
-    setTimeout(next, 500);
+    setTimeout(next, 1000);
 
     // Your code here...
 })();
