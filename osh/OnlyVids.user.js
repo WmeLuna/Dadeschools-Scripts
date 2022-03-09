@@ -23,7 +23,7 @@
             setTimeout(next, 250);
         }
     }
-    next()
+    setTimeout(next, 500);
 
     // Your code here...
 })();
