@@ -17,6 +17,7 @@
             if (document.querySelector('#contentIframe').contentWindow.document.body.classList[0] != 'video-body') {
                 document.querySelector("#footer_next_page").click()
             }
+            document.querySelector('#contentIframe').contentWindow.document.querySelector('#vidContainer').onended= function() { document.querySelector("#footer_next_page").click(); }
             setTimeout(next, 250);
         }
         catch {
