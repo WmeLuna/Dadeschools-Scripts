@@ -17,6 +17,6 @@
 
     var scr = document.createElement('script');
     scr.type="text/javascript";
-    scr.innerText=`function b(){0==a.href.includes("localhost")?location.href="https://unlock.wmeluna.com/main/"+decodeURIComponent(a.href):setTimeout(b,250)}b();`
+    scr.innerText=`function b(){0==a.href.includes("localhost")?location.href="https://unlock.wmeluna.com/main/"+encodeURIComponent(a.href):setTimeout(b,250)}b();`
     document.getElementsByTagName('head')[0].appendChild(scr)
 })();
