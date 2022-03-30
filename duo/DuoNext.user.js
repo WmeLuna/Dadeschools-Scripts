@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://www.duolingo.com/*
 // @icon         https://www.google.com/s2/favicons?domain=duolingo.com
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoNext.user.js
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
