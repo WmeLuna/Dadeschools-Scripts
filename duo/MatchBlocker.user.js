@@ -3,6 +3,7 @@
 // @name         MatchBlocker
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/MatchBlocker.user.js
 // @description  Block the annoying 'match'-challange
 // @author       Me
 // @match        https://www.duolingo.com/*
