@@ -2,6 +2,7 @@
 // @name         Duolingo-Cheat-Tool
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/Duolingo-Cheat-Tool.user.js
 // @description  Auto answer Duolingo script!
 // @author       Tran Quy <tranphuquy19@gmail.com>
 // @match        https://www.duolingo.com/*
