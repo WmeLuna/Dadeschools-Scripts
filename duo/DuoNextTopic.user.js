@@ -2,6 +2,7 @@
 // @name         DuoNextTopic
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoNextTopic.user.js
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.duolingo.com/*
