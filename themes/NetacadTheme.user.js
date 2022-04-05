@@ -9,6 +9,7 @@
 // @match        https://assessment.netacad.net/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=netacad.com
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
