@@ -2,7 +2,7 @@
 // @name         DuoCheat
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoNext.user.js
+// @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoCheat.user.js
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.duolingo.com/*
