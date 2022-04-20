@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DuoCheat
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoCheat.user.js
 // @updateURL    https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/DuoCheat.user.js
 // @description  try to take over the world!
@@ -37,8 +37,8 @@
             dynamicInput(document.querySelector('[data-test="challenge-text-input"]'), getChallenge()['correctSolutions'][0])
         } else if (getChallenge().type == 'tapComplete') {
             getChallenge().correctIndices.forEach(number => document.querySelectorAll('[data-test="word-bank"] [data-test="challenge-tap-token"]')[number].click())
-        } else if (getChallenge().type == 'typeCompleteTable') {
-            //tables are so icky
+        } else if (getChallenge().type == 'select') {
+            document.querySelectorAll('[data-test="challenge-choice"]')[getChallenge()['correctIndex']].click()
         } else {try{document.querySelector('[data-test="player-skip"]').click()}catch{}}
 
     }
