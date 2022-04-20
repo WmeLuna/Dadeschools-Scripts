@@ -7,7 +7,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.duolingo.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=duolingo.com
+// @icon         https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/12215d986b2905ef9483.png
 // @grant        none
 // ==/UserScript==
 
