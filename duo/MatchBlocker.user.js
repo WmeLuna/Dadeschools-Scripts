@@ -2,12 +2,13 @@
 // @license WTFPL
 // @name         MatchBlocker
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
+// @updateURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/MatchBlocker.user.js
 // @downloadURL  https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/MatchBlocker.user.js
 // @description  Block the annoying 'match'-challange
 // @author       Me
 // @match        https://www.duolingo.com/*
-// @icon         https://www.google.com/s2/favicons?domain=duolingo.com
+// @icon         https://github.com/WmeLuna/Dadeschools-Scripts/raw/main/duo/12215d986b2905ef9483.png
 // @grant        none
 // ==/UserScript==
 (function(send, open) {
