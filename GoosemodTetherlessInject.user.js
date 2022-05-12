@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         GoosemodTetherlessInject
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
-// @match        https://unlock.wmeluna.com/main/*discord.com/*
+// @match        https://unlock.wmeluna.com/main/*discord.com*
 // @match        https://lunadisco.herokuapp.com/main/*discord.com/*
 // @icon         https://goosemod.com/img/logo.jpg
 // @grant        none
