@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoUnblocker
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  try to take over the world!
 // @author       WmeLuna
 // @match        https://localhost:6543/block_screen.html?id=*
@@ -17,6 +17,6 @@
 
     var scr = document.createElement('script');
     scr.type="text/javascript";
-    scr.innerText=`function b(){0==a.href.includes("localhost")?location.href="https://unlock.wmeluna.com/main/"+encodeURIComponent(a.href):setTimeout(b,250)}b();`
+    scr.innerText=`function b(){if(!a.href.includes("localhost")){window.stop();location.href="https://unlock.wmeluna.com/main/"+encodeURIComponent(a.href)}else{setTimeout(b,10)}}b();`
     document.getElementsByTagName('head')[0].appendChild(scr)
 })();
