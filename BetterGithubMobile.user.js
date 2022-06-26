@@ -14,5 +14,6 @@
     var topSidebar = document.createElement("style")
     topSidebar.innerText = '#js-repo-pjax-container .Layout{display:flex!important;flex-direction:column!important}.Layout .Layout-main{order:2}.Layout .Layout-sidebar{order:1}'
     document.head.appendChild(topSidebar)
+    document.querySelector('a[href*="graphs/contributors"]').parentElement.parentElement.parentElement.setAttribute('hidden', '')
     // Your code here...
 })();
