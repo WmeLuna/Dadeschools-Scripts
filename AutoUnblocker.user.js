@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         AutoUnblocker
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  try to take over the world!
 // @author       WmeLuna
 // @match        https://localhost:6543/block_screen.html?id=*
+// @match        https://localhost:6543/block?id=*
 // @icon         https://avatars.githubusercontent.com/u/46545277
 // @grant        none
 // ==/UserScript==
